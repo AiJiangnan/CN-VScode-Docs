@@ -7,13 +7,13 @@ PageTitle: Java in VS Code
 DateApproved: 9/27/2017
 MetaDescription: Learn about Visual Studio Code editor features (code completion, debugging, snippets, linting) for Java.
 ---
-# Java in VS Code
+# Java
 
 The Java support in VS Code is provided through [extensions](/docs/editor/extension-gallery.md) and optimized for lightweight Java projects with a simple, modern workflow. Popular extensions in the [Marketplace](https://marketplace.visualstudio.com) provide project support, code completion, linting, debugging, code formatting, snippets, and more.
 
 > [Download VS Code](/download) - If you haven't downloaded VS Code yet, quickly install for your platform (Windows, Mac, Linux).
 
-## Install Java Extensions
+## 安装Java扩展插件
 
 VS Code is a fast editor and ships with only the basic features. Add Java language support to VS Code by installing the popular Java extensions.
 
@@ -29,25 +29,25 @@ To help set up Java on VS Code, there is a [Java Extension Pack](https://marketp
 
 This document describes the features included in the Java Extension Pack.
 
-## Java Project Support
+## Java项目支持
 
 Maven, Eclipse and Gradle Java project are supported through [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java), by utilizing [M2Eclipse](http://www.eclipse.org/m2e/) which provides Maven support and [Buildship](https://github.com/eclipse/buildship) which provides Gradle support through the [Eclipse JDT Language Server](https://github.com/eclipse/eclipse.jdt.ls).
 
 Please note that [Gradle-based Android projects are not supported](https://github.com/redhat-developer/vscode-java/issues/10#issuecomment-268834749).
 
-## Editing and Navigating Code
+## 代码的编辑和导航
 
 ![Java Code Editing](images/java/vscode-java.0.0.1.gif)
 
-### Linting
+### 检查
 
 A [linter](https://en.wikipedia.org/wiki/Lint_%28software%29) is a tool that provides warnings for suspicious looking code. [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) provides this feature to report parsing and compilation errors as you type, so you can fix them inside VS Code.
 
-### Intellisense
+### 智能提示
 
 VS Code also supports code completion and Intellisense for Java through [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java). [Intellisense](/docs/editor/intellisense.md) is a general term for a number of features, including intelligent code completion (in-context method and variable suggestions) across all your files and for built-in and thirty-party modules.
 
-### Search for symbols
+### 符号搜索
 
 You can search for symbols in the current file or workspace to navigate your code more quickly.
 
